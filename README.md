@@ -5,7 +5,8 @@ This is a simple calculator app built using React.
 [Create React App](https://facebook.github.io/create-react-app) was also used to bootstrap this project.
 
 ## Deployment Page
-
+App deployed on heroku using [create-react-app-buildpack](https://mayareactcalculator.herokuapp.com/) for heroku.
+See deployment [here](https://mayareactcalculator.herokuapp.com/).
 
 ## Available Scripts
 
