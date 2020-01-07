@@ -3,6 +3,9 @@
 ## Description
 This is a simple calculator app built using React. 
 [Create React App](https://facebook.github.io/create-react-app) was also used to bootstrap this project.
+It's a simple calulator app for a Math-magiciand, a fictional company based in France.
+The app is meant to assist them with their calculations.
+The app is not meant only to be fully-functional but have a beatiful UI and good UX.
 
 ## Deployment Page
 App deployed on heroku using [create-react-app-buildpack](https://mayareactcalculator.herokuapp.com/) for heroku.
@@ -50,27 +53,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
