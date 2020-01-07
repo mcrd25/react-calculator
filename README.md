@@ -1,4 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Maya's REact Calculator
+
+## Description
+This is a simple calculator app built using React. 
+[Create React App](https://facebook.github.io/create-react-app) was also used to bootstrap this project.
+
+## Deployment Page
+
 
 ## Available Scripts
 
