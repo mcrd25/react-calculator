@@ -1,13 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Display = ({value}) => {
-  return (
-    <div className="calc-display">
-      {value}
-    </div>
-  );
-};
+const Display = ({ value }) => (
+  <div className="calc-display">
+    {value}
+  </div>
+);
 
 Display.propTypes = {
   value: PropTypes.string,
