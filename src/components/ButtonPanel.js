@@ -16,7 +16,7 @@ const ButtonPanel = () => {
           {
                 row.map((buttonName) => (
                   <Button
-                    name={buttonName}
+                    name={String(buttonName)}
                     key={buttonName}
                   />
                 ))
