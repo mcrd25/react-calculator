@@ -11,10 +11,10 @@ const ButtonPanel = () => {
   ];
   return (
     <div className="button-panel">
-      {groups.map(group => (
+      {groups.map((group) => (
         <div key={group} className="panel-row">
           {
-                group.map(buttonName => (
+                group.map((buttonName) => (
                   <Button
                     name={String(buttonName)}
                     key={buttonName}
