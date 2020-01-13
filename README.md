@@ -1,4 +1,4 @@
-# Maya's REact Calculator
+# Maya's React Calculator
 
 ## Description
 This is a simple calculator app built using React. 
