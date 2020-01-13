@@ -1,10 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Display = (props) => {
-  const {
-    value,
-  } = props;
+const Display = ({value}) => {
   return (
     <div className="calc-display">
       {value}
