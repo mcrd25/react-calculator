@@ -17,7 +17,7 @@ const ButtonPanel = () => {
             group.map((buttonName, index, arr) => (
               <Button
                 name={buttonName}
-                color={index !== arr.length - 1 ? 'grey' : 'orange'}
+                color={index !== arr.length - 1 && 'grey'}
                 key={buttonName}
               />
             ))
