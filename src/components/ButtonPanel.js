@@ -18,6 +18,7 @@ const ButtonPanel = () => {
               <Button
                 name={buttonName}
                 color={index !== arr.length - 1 && 'grey'}
+                wide={buttonName === '0'}
                 key={buttonName}
               />
             ))
