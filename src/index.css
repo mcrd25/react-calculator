@@ -33,8 +33,13 @@
 	height: 100%;
 	width: 25%;
 	font-size: 1.2em;
-	background-color: #E0E0E0;
+	background-color: #F5913E;
 	border-width: 2px;
 	outline: none;
 	font-weight: 500;
+
+}
+
+.grey {
+	background-color: #E0E0E0;
 }

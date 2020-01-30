@@ -14,13 +14,14 @@ const ButtonPanel = () => {
       {groups.map(group => (
         <div key={group} className="panel-row">
           {
-                group.map(buttonName => (
-                  <Button
-                    name={buttonName}
-                    key={buttonName}
-                  />
-                ))
-              }
+            group.map((buttonName, index, arr) => (
+              <Button
+                name={buttonName}
+                color={index !== arr.length - 1 ? 'grey' : 'orange'}
+                key={buttonName}
+              />
+            ))
+          }
         </div>
       ))}
     </div>
