@@ -28,3 +28,8 @@
 .panel-row {
 	height: 100px;
 }
+
+.btn {
+	height: 100%;
+	width: 25%;
+}
