@@ -7,15 +7,20 @@
 	flex-direction: column;
 }
 
+.button-panel {
+	width:100%;
+	flex-direction: column;
+}
+
 .calc-display {
 	box-sizing: border-box;
 	background: #858693;
 	height: 100px;
 	color: #fff;
 	font-weight: bold;
-	padding: 1em;
+	padding: .5em;
 	align-items: center;
 	justify-content: flex-end;
 	width: 100%;
-	font-size: 1.8em;
+	font-size: 2em;
 }
