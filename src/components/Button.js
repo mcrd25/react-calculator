@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Button = ({ name, color, wide }) => {
-  let btnClass = color === 'grey' ? `btn ${color}` : 'btn';
+  let btnClass = color ? 'btn grey' : 'btn';
 
   if (wide) btnClass += ' wide';
 
@@ -18,7 +18,7 @@ const Button = ({ name, color, wide }) => {
 
 Button.propTypes = {
   name: PropTypes.string.isRequired,
-  color: PropTypes.string,
+  color: PropTypes.bool,
   wide: PropTypes.bool.isRequired,
 };
 
