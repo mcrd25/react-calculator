@@ -1,3 +1,7 @@
 .calculator, .calc-display, .button-panel {
 	display: flex;
 }
+
+.calculator {
+	width: 700px;
+}
