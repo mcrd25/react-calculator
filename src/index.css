@@ -24,3 +24,7 @@
 	width: 100%;
 	font-size: 2em;
 }
+
+.panel-row {
+	height: 100px;
+}
