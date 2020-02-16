@@ -1,6 +1,6 @@
 import operate from './operate';
 
-const isNumber = (candidate) => ['7', '8', '9', '4', '5', '6', '1', '2', '3'].includes(candidate);
+const isNumber = candidate => ['7', '8', '9', '4', '5', '6', '1', '2', '3'].includes(candidate);
 
 const calculate = (calcObject, buttonName) => {
   let { total, next, operation } = calcObject;
