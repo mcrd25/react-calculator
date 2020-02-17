@@ -4,13 +4,13 @@
 
 ![screenshot](./app_screenshot.png)
 
-[Create React App](https://facebook.github.io/create-react-app) was also used to bootstrap this project. 
+\ 
 It can successfully add, subtract, divide, multiply, find modulus and change sign of any given set of numbers inputted.
 
 ## Built With
 
 - JavaScript (ES6),
-- React,
+- React ([Create React App](https://facebook.github.io/create-react-app)), 
 - npm, eslint
 
 ## Live Demo
@@ -28,12 +28,12 @@ To get a local copy up and running follow these simple example steps.
 You will need to have a recent version of [Node.js](https://nodejs.org/en/), [React](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app) and optionally [eslint]() installed.
 
 ### Setup
-run `git clone https://github.com/mcrd25/react-calculator.git`
+run `git clone https://github.com/mcrd25/react-calculator.git` <br>
 run `cd react-calculator`
 ### Install
 run `npm install`
 ### Usage
-run `yarn start` to launch app in development mode
+run `yarn start` to launch app in development mode <br>
 run `yarn build` to build app for production
 
 ### Deployment
