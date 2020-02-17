@@ -1,10 +1,8 @@
 import React from 'react';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
-// eslint-disable-next-line no-unused-vars
 import calculate from '../logic/calculate';
 
-// eslint-disable-next-line react/prefer-stateless-function
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -16,14 +14,15 @@ class App extends React.Component {
   }
 
   handleClick(buttonName) {
-    this.setState(prevState => calculate(prevState, buttonName));
+    this.setState((prevState) => calculate(prevState, buttonName));
   }
 
   render() {
+    const { total, next } = this.setState;
     return (
       <div className="calculator">
         <div className="display-container">
-          <Display />
+          <Display value={next || total || 0} />
         </div>
         <div className="panel-container">
           <ButtonPanel />
