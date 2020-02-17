@@ -13,10 +13,13 @@ class App extends React.Component {
         operation: null,
       },
     };
+    this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick = buttonName => this.setState((prevState) => ({ calculator: calculate(prevState.calculator, buttonName) }));
-  
+  handleClick(buttonName) {
+    this.setState((prevState) => ({ calculator: calculate(prevState.calculator, buttonName) }));
+  }
+
   render() {
     const {
       calculator,
