@@ -15,6 +15,10 @@ class App extends React.Component {
     };
   }
 
+  handleClick(buttonName) {
+    this.setState(prevState => calculate(prevState, buttonName));
+  }
+
   render() {
     return (
       <div className="calculator">
