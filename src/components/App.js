@@ -6,6 +6,15 @@ import calculate from '../logic/calculate';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      total: null,
+      next: null,
+      operation: null,
+    };
+  }
+
   render() {
     return (
       <div className="calculator">
