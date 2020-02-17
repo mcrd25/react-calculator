@@ -11,7 +11,6 @@ const ButtonPanel = ({ clickHandler }) => {
     ['0', '.', '='],
   ];
 
-  const handleClick = (buttonName) => clickHandler(buttonName);
   return (
     <div className="button-panel">
       {groups.map(group => (
