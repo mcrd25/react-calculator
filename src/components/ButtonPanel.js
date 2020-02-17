@@ -23,7 +23,7 @@ const ButtonPanel = ({ clickHandler }) => {
                 color={index !== arr.length - 1}
                 wide={buttonName === '0'}
                 key={buttonName}
-                clickHandler={handleClick}
+                clickHandler={clickHandler}
               />
             ))
           }
