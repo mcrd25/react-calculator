@@ -12,7 +12,9 @@ const Button = ({
     <button
       type="button"
       className={btnClass}
-      onClick={clickHandler(name)}
+      onClick={
+        () => clickHandler(name)
+      }
     >
       { name }
     </button>
