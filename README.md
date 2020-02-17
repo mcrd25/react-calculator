@@ -4,7 +4,6 @@
 
 ![screenshot](./app_screenshot.png)
 
-\ 
 It can successfully add, subtract, divide, multiply, find modulus and change sign of any given set of numbers inputted.
 
 ## Built With
@@ -18,9 +17,6 @@ It can successfully add, subtract, divide, multiply, find modulus and change sig
 
 
 ## Getting Started
-
-
-
 
 To get a local copy up and running follow these simple example steps.
 
