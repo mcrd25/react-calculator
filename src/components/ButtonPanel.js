@@ -25,6 +25,7 @@ const ButtonPanel = (props) => {
                 color={index !== arr.length - 1}
                 wide={buttonName === '0'}
                 key={buttonName}
+                clickHandler={handleClick}
               />
             ))
           }
@@ -35,7 +36,7 @@ const ButtonPanel = (props) => {
 };
 
 ButtonPanel.protoTypes = {
-  handleClick: PropTypes.func.isRequired,
+  clickHandler: PropTypes.func.isRequired,
 };
 
 export default ButtonPanel;
