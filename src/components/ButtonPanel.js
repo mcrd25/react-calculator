@@ -1,6 +1,6 @@
 import React from 'react';
-import Button from './Button';
 import PropTypes from 'prop-types';
+import Button from './Button';
 
 const ButtonPanel = (props) => {
   const groups = [
@@ -11,9 +11,7 @@ const ButtonPanel = (props) => {
     ['0', '.', '='],
   ];
   const { clickHandler } = props;
-  const handleClick = (buttonName) => {
-    clickHandler(buttonName);
-  };
+  const handleClick = (buttonName) => clickHandler(buttonName);
   return (
     <div className="button-panel">
       {groups.map(group => (
@@ -35,7 +33,7 @@ const ButtonPanel = (props) => {
   );
 };
 
-ButtonPanel.protoTypes = {
+ButtonPanel.propTypes = {
   clickHandler: PropTypes.func.isRequired,
 };
 
