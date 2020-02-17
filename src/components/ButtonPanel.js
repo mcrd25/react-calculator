@@ -11,9 +11,7 @@ const ButtonPanel = (props) => {
     ['0', '.', '='],
   ];
   const { clickHandler } = props;
-  const handleClick = (buttonName) => {
-    clickHandler(buttonName);
-  };
+  const handleClick = (buttonName) => clickHandler(buttonName);
   return (
     <div className="button-panel">
       {groups.map(group => (
@@ -25,7 +23,7 @@ const ButtonPanel = (props) => {
                 color={index !== arr.length - 1}
                 wide={buttonName === '0'}
                 key={buttonName}
-                clickHandler={handleClick(buttonName)}
+                clickHandler={handleClick}
               />
             ))
           }
