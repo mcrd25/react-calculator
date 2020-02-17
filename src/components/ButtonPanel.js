@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Button from './Button';
 
-const ButtonPanel = (props) => {
+const ButtonPanel = ({ clickHandler }) => {
   const groups = [
     ['AC', '+/-', '%', String.fromCharCode(247)],
     ['7', '8', '9', 'X'],
@@ -10,7 +10,7 @@ const ButtonPanel = (props) => {
     ['1', '2', '3', '+'],
     ['0', '.', '='],
   ];
-  const { clickHandler } = props;
+
   const handleClick = (buttonName) => clickHandler(buttonName);
   return (
     <div className="button-panel">
