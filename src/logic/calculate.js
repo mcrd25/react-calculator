@@ -11,7 +11,7 @@ const calculate = (calcObject, buttonName) => {
     } else if (operation) {
       next = next ? next + buttonName : buttonName;
     } else {
-      total += buttonName;
+      total = (!next && !operation) ? buttonName : total += buttonName;
     }
   } else if (buttonName === 'AC') {
     total = null;
