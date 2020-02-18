@@ -10,10 +10,10 @@ It can successfully add, subtract, divide, multiply, find modulus and change sig
 
 - JavaScript (ES6),
 - React ([Create React App](https://facebook.github.io/create-react-app)), 
-- npm, eslint
+- npm, yarn, eslint
 
 ## Live Demo
-[Live Demo Link](https://mayareactcalculator.herokuapp.com/) (to be updated once all milestones passed)
+[Live Demo Link](https://mayareactcalculator.herokuapp.com/)
 
 
 ## Getting Started
@@ -21,16 +21,16 @@ It can successfully add, subtract, divide, multiply, find modulus and change sig
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-You will need to have a recent version of [Node.js](https://nodejs.org/en/), [React](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app) and optionally [eslint]() installed.
+You will need to have a recent version of [Node.js](https://nodejs.org/en/), [React](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app), [yarn](https://classic.yarnpkg.com/en/docs/instal) and optionally [eslint](https://www.npmjs.com/package/eslint) installed.
 
 ### Setup
 run `git clone https://github.com/mcrd25/react-calculator.git` <br>
 run `cd react-calculator`
 ### Install
-run `npm install`
+run `yarn install` or `npm install`
 ### Usage
-run `yarn start` to launch app in development mode <br>
-run `yarn build` to build app for production
+run `yarn start` or `npm start` to launch app in development mode <br>
+run `yarn build` or `npm build` to build app for production
 
 ### Deployment
 App deployed on heroku using [create-react-app-buildpack](https://github.com/mars/create-react-app-buildpack) for heroku.
