@@ -13,7 +13,7 @@ It can successfully add, subtract, divide, multiply, find modulus and change sig
 - npm, eslint
 
 ## Live Demo
-[Live Demo Link](https://mayareactcalculator.herokuapp.com/) (to be updated once all milestones passed)
+[Live Demo Link](https://mayareactcalculator.herokuapp.com/)
 
 
 ## Getting Started
