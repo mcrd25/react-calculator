@@ -1,55 +1,63 @@
 # Maya's React Calculator
 
-## Description
-This is a simple calculator app built using React. 
-[Create React App](https://facebook.github.io/create-react-app) was also used to bootstrap this project.
-It's a simple calulator app for a Math-magiciand, a fictional company based in France.
-The app is meant to assist them with their calculations.
-The app is not meant only to be fully-functional but have a beatiful UI and good UX.
+> This is a simple calculator app built using React. It's a simple calulator app for a Math-magiciand, a fictional company based in France. The app is meant to assist them with their calculations. The app is not meant only to be fully-functional but have a beatiful UI and good UX.
 
-## Deployment Page
-App deployed on heroku using [create-react-app-buildpack](https://mayareactcalculator.herokuapp.com/) for heroku.
-See deployment [here](https://mayareactcalculator.herokuapp.com/).
+![screenshot](./app_screenshot.png)
 
-## Available Scripts
+It can successfully add, subtract, divide, multiply, find modulus and change sign of any given set of numbers inputted.
 
-In the project directory, you can run:
+## Built With
 
-### `yarn start`
+- JavaScript (ES6),
+- React ([Create React App](https://facebook.github.io/create-react-app)), 
+- npm, eslint
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Live Demo
+[Live Demo Link](https://mayareactcalculator.herokuapp.com/) (to be updated once all milestones passed)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get a local copy up and running follow these simple example steps.
 
-### `yarn build`
+### Prerequisites
+You will need to have a recent version of [Node.js](https://nodejs.org/en/), [React](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app) and optionally [eslint]() installed.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Setup
+run `git clone https://github.com/mcrd25/react-calculator.git` <br>
+run `cd react-calculator`
+### Install
+run `npm install`
+### Usage
+run `yarn start` to launch app in development mode <br>
+run `yarn build` to build app for production
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Deployment
+App deployed on heroku using [create-react-app-buildpack](https://github.com/mars/create-react-app-buildpack) for heroku.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## Authors
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+👤 **Maya Douglas (mcrd25)**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Github: [@mcrd25](https://github.com/mcrd25)
+- Twitter: [@mcrd25](https://twitter.com/mcrd25)
+- Linkedin: [linkedin](https://linkedin.com/in/mayadouglas)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🤝 Contributing
 
-## Learn More
+Contributions, issues and feature requests are welcome!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Feel free to check the [issues page](issues/).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+- The app was built using following instructions [this repo](https://github.com/microverseinc/project-react-calculator)
+
+## 📝 License
+
+This project is [MIT](LICENSE) licensed.
